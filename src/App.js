@@ -15,8 +15,8 @@ function App() {
       <Routes>
         <Route exact path="/apartments/:apartmentId/edit" element={<ApartmentEditPage />} />
         <Route exact path="/apartments/:apartmentId" element={<ApartmentDetailPage />} />
-        <Route exact path="/" element={<ApartmentsPage />} />
         <Route exact path="/add" element={<AddApartmentPage />} />
+        <Route exact path="/" element={<ApartmentsPage />} />
       </Routes>
     </div>
   );

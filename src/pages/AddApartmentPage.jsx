@@ -6,6 +6,7 @@ function AddApartmentPage() {
   const [headline, setHeadline] = useState("");
   const [price, setPrice] = useState(0);
   const navigate = useNavigate();
+  
 
   const handleSubmit = (event) => {
     event.preventDefault();
